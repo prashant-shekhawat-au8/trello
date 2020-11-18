@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{background-color: rgb(44, 213, 243)}
+
+.flexbox {
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  height:100vh;
+  overflow:hidden;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.flexbox .trello {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  background-color: rgb(255, 254, 254);
+  padding:15px;
+  overflow: scroll;
+
+}
+
+.flexbox .trello .card {
+  border-radius: 10px;
+  padding: 15px 25px;
+  background-color: rgb(241, 15, 15);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
